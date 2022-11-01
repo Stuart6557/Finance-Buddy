@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(255, 255, 238);
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Robot', 'Oxygen', 
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans';
+}
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#top-of-page {
+    align-items: center;
+    margin: auto;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+#navbar {
+    background: linear-gradient(320deg, hsl(290, 27%, 71%), 
+            hsl(285, 23%, 64%), hsl(309, 63%, 81%), hsl(276, 35%, 79%), 
+            hsl(205, 57%, 81%), hsl(197, 44%, 86%));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+
+    padding: 1% 3%;
+    border: 3px groove rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #c4c4c4;
+}
+
+.about-me {
+    text-align: center;
+}
+
+#info {
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.images-div {
+    background: linear-gradient(320deg, hsl(290, 27%, 71%), 
+            hsl(285, 23%, 64%), hsl(309, 63%, 81%), hsl(276, 35%, 79%), 
+            hsl(205, 57%, 81%), hsl(197, 44%, 86%));
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-div {
+    width: 47.5%;
+    height: auto;
+    min-width: 250px;
+    border-radius: 15px;
+}
+
+#minion-one {
+    box-shadow: 10px 10px 5px #ac8eb5;
+}
+
+#minion-two {
+    box-shadow: 10px 10px 5px #8c6485;
+}
