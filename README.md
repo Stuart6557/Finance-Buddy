@@ -8,6 +8,9 @@ Currently a work in progress!
 
 Hack School repo: https://github.com/acmucsd/hackschool-fa22
 
+Workshop 0 - Intro to SWE
+- Slides: https://docs.google.com/presentation/d/1MYE2LezkpLMcSo7CjhnsGP-gDkScHpZuGtv4WStu1WQ/edit?usp=sharing
+
 Workshop 1 - Intro to HTML/CSS
 - Recording: https://acmurl.com/hackschool-1-video
 - Slides: https://acmurl.com/hackschool-1-slides
