@@ -13,4 +13,13 @@ Workshop 1 - Intro to HTML/CSS
 - Slides: https://acmurl.com/hackschool-1-slides
 
 Workshop 2 - Intro to JavaScript & Node.js
+- Recording: 
 - Slides: https://docs.google.com/presentation/d/1shJD9opcG-K084xi9M1T3HnFnO_g6fpbd3JzcqdiL9Q/edit?usp=sharing
+
+Workshop 3 - Intro to Fronted with React.js
+- Recording: 
+- Slides: 
+
+Workshop 4 - Backend and Databases
+- Recording: 
+- Slides: 
