@@ -47,14 +47,6 @@ img {
 
 /* class styles */
 
-.title {
-
-}
-
-.nav-buttons {
-    
-}
-
 .cards-div {
     background: linear-gradient(320deg, hsl(290, 27%, 71%), 
             hsl(285, 23%, 64%), hsl(309, 63%, 81%), hsl(276, 35%, 79%), 
@@ -63,6 +55,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .card {
     width: 45%;
@@ -77,7 +70,22 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 1%;
+    margin-bottom: 5%;
+}
+
+/* viewPurchase.html specific */
+.description {
+    width: 49%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-image {
+    width: 49%;
+    height: auto;
 }
 
 /* id styles */
@@ -104,8 +112,29 @@ img {
     box-shadow: 10px 10px 5px #c4c4c4;
 }
 
+/* index.html specific */
+
 #info {
     padding-top: 5px;
     padding-bottom: 25px;
     text-align: center;
+}
+
+#linkedin {
+    width: 3%;
+    height: auto;
+    border-radius: 5px;
+    min-width: 40px;
+}
+
+/* viewPurchase.html specific */
+
+#recent-purchases-div {
+    margin-top: 5%;
+    padding-top: 1%;
+}
+
+#recent-purchases {
+    width: 100%;
+    font-size: 50px;
 }
