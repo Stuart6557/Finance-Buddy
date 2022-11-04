@@ -1,0 +1,3 @@
+- Split styles into 3 css files
+- Add New Purchase page
+- Add GitHub image and link

@@ -1,4 +1,4 @@
-// This file is for the workshop on JavaScript & Node.js on Thu Oct 27, 2022
+// This file contains notes from the workshop on JavaScript & Node.js on Thu Oct 27, 2022
 
 /* -------------------------------------------------------------------------- */
 
