@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css" type="text/css">
+        <link rel="stylesheet" href="createPurchaseStyles.css" type="text/css">
         <title>Finance Buddy | View Purchase</title>
     </head>
     <body>
@@ -13,6 +14,31 @@
                 <a href="createPurchase.html">Add New Purchase</a>
                 <a href="viewPurchase.html">View All Purchases</a>
             </div>
+        </div>
+        <div class = "card">
+            <form class="create-page">
+                <div class="finance-form">
+                    <h2>Log a Purchase</h2>
+                    <div class="form-row">
+                        <label for="name">Purchase Name</label>
+                        <input id="name" name="name" required></input>
+                    </div>
+                    <div class="form-row">
+                        <label for="desc">Purchase Amount</label>
+                        <input type="number" id="desc" name="desc" required></input>
+                    </div>
+                    <div class="form-row">
+                        <label for="type1">Purchase Type</label>
+                        <select id="type1" name="type1">
+                            <option>Cash</option>
+                            <option>Chase Freedom Unlimited</option>
+                            <option>Debit</option>
+                            <option>Check</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Submit" id="submit-button" />
+                </div>
+            </form>
         </div>
     </body>
 </html>
