@@ -1,0 +1,21 @@
+.description {
+    width: 49%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-image {
+    width: 49%;
+    height: auto;
+}
+
+#recent-purchases-div {
+    margin-top: 5%;
+    padding-top: 1%;
+}
+
+#recent-purchases {
+    width: 100%;
+    font-size: 50px;
+}

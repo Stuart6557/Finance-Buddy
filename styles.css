@@ -75,19 +75,6 @@ img {
     margin-bottom: 5%;
 }
 
-/* viewPurchase.html specific */
-.description {
-    width: 49%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.item-image {
-    width: 49%;
-    height: auto;
-}
-
 /* id styles */
 
 #top-of-page {
@@ -110,31 +97,4 @@ img {
     border: 3px groove rgb(0, 0, 0);
     border-radius: 15px;
     box-shadow: 10px 10px 5px #c4c4c4;
-}
-
-/* index.html specific */
-
-#info {
-    padding-top: 5px;
-    padding-bottom: 25px;
-    text-align: center;
-}
-
-#linkedin {
-    width: 3%;
-    height: auto;
-    border-radius: 5px;
-    min-width: 40px;
-}
-
-/* viewPurchase.html specific */
-
-#recent-purchases-div {
-    margin-top: 5%;
-    padding-top: 1%;
-}
-
-#recent-purchases {
-    width: 100%;
-    font-size: 50px;
 }
