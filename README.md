@@ -17,8 +17,9 @@ Workshop 1 (10/13/22) - Intro to HTML/CSS
 - Code: https://github.com/acmucsd/hackschool-fa22/tree/part1
 
 Workshop 2 (10/27/22) - Intro to JavaScript & Node.js
-- Recording: 
-- Slides: https://docs.google.com/presentation/d/1shJD9opcG-K084xi9M1T3HnFnO_g6fpbd3JzcqdiL9Q/edit?usp=sharing
+- Recording: https://acmurl.com/hackschool-2-video
+- Slides: https://acmurl.com/hackschool-2-slides
+- Code: https://github.com/acmucsd/hackschool-fa22/tree/part2
 
 Workshop 3 (11/10/22) - Intro to Fronted with React.js
 - Recording: 
