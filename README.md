@@ -1,9 +1,6 @@
 # Finance-Buddy
 Personal project based on what I learned from ACM Hack School Workshops
 
-Currently a work in progress!
-
-
 ## Resources
 
 Hack School repo: https://github.com/acmucsd/hackschool-fa22
@@ -29,3 +26,4 @@ Workshop 3 (11/10/22) - Intro to Fronted with React.js
 Workshop 4 (11/17/22) - Backend and Databases
 - Recording: 
 - Slides: 
+- Code: 
