@@ -1,0 +1,11 @@
+Useful commands
+* Make sure you have Node.js installed!
+
+Start the creation of your React app:
+        npx create-react-app client --template empty
+
+Install dependencies:
+        npm install
+
+Run this command in the client folder to see the webpage:
+        npm start
