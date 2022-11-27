@@ -2,33 +2,37 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="indexStyles.css">
         <title>Finance Buddy</title>
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <style>
+            h2 {text-align: center;}
+            p {text-align: center;}
+            div {text-align: center;}
+        </style>
     </head>
     <body>
-        <div id="top-of-page">
-            <h1><a href="index.html">Finance Buddy</a></h1>
-            <div id="navbar">
+        <div id="navbar">
+            <div class="title">
+                <h1>Finance Buddy</h1>
+                <a href="index.html"></a>
+            </div>
+            <div class="nav-buttons">
                 <a href="createPurchase.html">Add New Purchase</a>
-                <a href="viewPurchase.html">View All Purchases</a>
-            </div>
-            <div id="info">
-                <h2>A tool to help you stop splurging!</h2>
-                <p>You can navigate to Add New Purchase button at the top to log a new purchase. Then you can go over to View All Purchases to view the purchases.</p>
-                <p class="about-me">Made by <a href="https://www.linkedin.com/in/vivian-liu-336148202/">Vivian Liu</a></p>
-                <a href="https://www.linkedin.com/in/vivian-liu-336148202/"><img id="linkedin" src="index images/linkedin-logo.png" alt="LinkedIn" /></a>
+                <a href="viewPurchases.html">View All Purchases</a>
             </div>
         </div>
-        <div class="cards-div">
-            <div class="card">
-                <img src="index images/Minion Money 1.jpg" alt="Minion Money Picture 1" />
+        <h2>Welcome to Finance Buddy!!</h2>
+        <p>You can navigate to <i>Add New Purchase</i> button at the top to log a new purchase. 
+            Then you can go over to <i>View All Purchases</i> to view the purchases.
+        </p>
+        <div class="row">
+            <div class="column">
+                <img src=https://images.booksense.com/images/133/968/9781986968133.jpg class="center">
             </div>
-            <div class="card">
-                <img src="index images/Minion Money 2.png" alt="Minion Money Picture 2" />
+            <div class="column">
+                <img src=https://img.freepik.com/free-vector/finance-financial-performance-concept-illustration_53876-40450.jpg?w=2000 width="500" class="center">
             </div>
         </div>
+        <img src="https://acmucsd.com/_next/static/media/ACMWhiteLogo.ccb2d1cb.png" width="500" class="center">
     </body>
 </html>
