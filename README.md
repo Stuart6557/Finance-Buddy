@@ -24,7 +24,7 @@ Workshop 3 (11/10/22) - Intro to Fronted with React.js
 - Code: https://github.com/acmucsd/hackschool-fa22/tree/part3
 - The demo from this workshop is on branch workshop-3-react-demo
 
-Workshop 4 (11/17/22) - Backend and Databases
-- Recording: 
-- Slides: 
-- Code: 
+Workshop 4 (11/22/22) - Backend and Databases
+- Recording: https://acmurl.com/hackschool-4-video
+- Slides: https://acmurl.com/hackschool-4-slides
+- Code: https://github.com/acmucsd/hackschool-fa22/tree/part4
