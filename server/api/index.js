@@ -11,6 +11,7 @@ router.get('/purchases', async (req, res) => {
 
 router.post('/purchases', async (req, res) => {
     const { purchase } = req.body;
+    console.log(req.body);
     const {name, description, cost, method } = purchase;
     if (!name || !description || !cost || !method) {
         res.status(400).json({error: 'Invalid Input!'});

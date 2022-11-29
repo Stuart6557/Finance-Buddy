@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./style.css";
+import API from "../API"
 
-const purchaseData = [
+// hard coded data
+/* const purchaseData = [
   {
     name: "Soup",
     description: "Yum",
@@ -42,52 +44,21 @@ const purchaseData = [
     cost: 100000,
     method: "Crypto",
   },
-  {
-    name: "Shoe",
-    description: "Yum",
-    location: "CSE Basement",
-    date: "12/12/1234",
-    cost: 100000,
-    method: "Crypto",
-  },
-  {
-    name: "Shoe",
-    description: "Yum",
-    location: "CSE Basement",
-    date: "12/12/1234",
-    cost: 100000,
-    method: "Crypto",
-  },
-  {
-    name: "Shoe",
-    description: "Yum",
-    location: "CSE Basement",
-    date: "12/12/1234",
-    cost: 100000,
-    method: "Crypto",
-  },
-  {
-    name: "Shoe",
-    description: "Yum",
-    location: "CSE Basement",
-    date: "12/12/1234",
-    cost: 100000,
-    method: "Crypto",
-  },
-  {
-    name: "Shoe",
-    description: "Yum",
-    location: "CSE Basement",
-    date: "12/12/1234",
-    cost: 100000,
-    method: "Crypto",
-  },
-];
+]; */
 
 const ViewPurchase = () => {
+  const [body, setBody] = useState([]);
+
+  useEffect(() => {
+      API.getPurchase().then((response) => {
+          console.log(response);
+          setBody(response.data.purchases);
+      });
+  }, []);
+
   return (
     <div className="view-container">
-      {purchaseData.map((purchase, index) => {
+      {body.map((purchase) => {
         return (
           <div className="view-item">
             <h1 className="item-title">{purchase.name}</h1>
