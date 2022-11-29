@@ -16,9 +16,9 @@ server.use('/api', router);
 mongoose.connect(config.databaseUrl, {
     useNewUrlParser: true,
     useUnifiedTopology: true }).then(() => {
-  console.log('Connected to MongoDB database');
+    console.log('Connected to MongoDB database');
 });
 
 server.listen(config.PORT, () => {
-	console.log('Server started on Port ' + config.PORT);
-}); 
+	  console.log('Server started on Port ' + config.PORT);
+});

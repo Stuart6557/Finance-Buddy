@@ -22,4 +22,3 @@ router.post('/purchases', async (req, res) => {
 });
 
 module.exports = router;
-
