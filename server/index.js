@@ -4,6 +4,7 @@ const router = require('./api');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
+
 const server = express();
 
 server.use(cors());
@@ -19,5 +20,5 @@ mongoose.connect(config.databaseUrl, {
 });
 
 server.listen(config.PORT, () => {
-    console.log('Server started on Port ' + config.PORT + '!');
-});
+	console.log('Server started on Port ' + config.PORT);
+}); 

@@ -1,9 +1,10 @@
-const express = require('express')
+const express = require('express');
 const Purchase = require('../models/purchases');
+
 
 const router = express.Router();
 
-router.get("/purchases", async (req, res) => {
+router.get('/purchases', async (req, res) => {
     const purchases = await Purchase.find().exec();
     res.status(200).json({purchases});
 });
@@ -20,3 +21,4 @@ router.post('/purchases', async (req, res) => {
 });
 
 module.exports = router;
+
