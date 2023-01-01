@@ -28,3 +28,8 @@ Workshop 4 (11/22/22) - Backend and Databases
 - Recording: https://acmurl.com/hackschool-4-video
 - Slides: https://acmurl.com/hackschool-4-slides
 - Code: https://github.com/acmucsd/hackschool-fa22/tree/part4
+
+Workshop 5 (11/28/22) - APIs Part 2 & Finishing Touches
+- Recording: https://acmurl.com/hackschool-5-video
+- Slides: https://acmurl.com/hackschool-5-slides
+- Code: https://github.com/acmucsd/hackschool-fa22/tree/part5
